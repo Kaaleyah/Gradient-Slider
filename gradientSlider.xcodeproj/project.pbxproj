@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51A62BBD2987B91200E1E213 /* gradientSlider Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 51A62BBC2987B91200E1E213 /* gradientSlider Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		51A62BC22987B91200E1E213 /* gradientSliderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A62BC12987B91200E1E213 /* gradientSliderApp.swift */; };
+		51A62BC42987B91200E1E213 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A62BC32987B91200E1E213 /* ContentView.swift */; };
+		51A62BC62987B91400E1E213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A62BC52987B91400E1E213 /* Assets.xcassets */; };
+		51A62BC92987B91400E1E213 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A62BC82987B91400E1E213 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51A62BBE2987B91200E1E213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51A62BB02987B91200E1E213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51A62BBB2987B91200E1E213;
+			remoteInfo = "gradientSlider Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		51A62BCF2987B91400E1E213 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				51A62BBD2987B91200E1E213 /* gradientSlider Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		51A62BB62987B91200E1E213 /* gradientSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gradientSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51A62BBC2987B91200E1E213 /* gradientSlider Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gradientSlider Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51A62BC12987B91200E1E213 /* gradientSliderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradientSliderApp.swift; sourceTree = "<group>"; };
+		51A62BC32987B91200E1E213 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		51A62BC52987B91400E1E213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51A62BC82987B91400E1E213 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51A62BB92987B91200E1E213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51A62BAF2987B91200E1E213 = {
+			isa = PBXGroup;
+			children = (
+				51A62BC02987B91200E1E213 /* gradientSlider Watch App */,
+				51A62BB72987B91200E1E213 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51A62BB72987B91200E1E213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51A62BB62987B91200E1E213 /* gradientSlider.app */,
+				51A62BBC2987B91200E1E213 /* gradientSlider Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51A62BC02987B91200E1E213 /* gradientSlider Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				51A62BC12987B91200E1E213 /* gradientSliderApp.swift */,
+				51A62BC32987B91200E1E213 /* ContentView.swift */,
+				51A62BC52987B91400E1E213 /* Assets.xcassets */,
+				51A62BC72987B91400E1E213 /* Preview Content */,
+			);
+			path = "gradientSlider Watch App";
+			sourceTree = "<group>";
+		};
+		51A62BC72987B91400E1E213 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				51A62BC82987B91400E1E213 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51A62BB52987B91200E1E213 /* gradientSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51A62BD02987B91400E1E213 /* Build configuration list for PBXNativeTarget "gradientSlider" */;
+			buildPhases = (
+				51A62BB42987B91200E1E213 /* Resources */,
+				51A62BCF2987B91400E1E213 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51A62BBF2987B91200E1E213 /* PBXTargetDependency */,
+			);
+			name = gradientSlider;
+			productName = gradientSlider;
+			productReference = 51A62BB62987B91200E1E213 /* gradientSlider.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		51A62BBB2987B91200E1E213 /* gradientSlider Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51A62BCC2987B91400E1E213 /* Build configuration list for PBXNativeTarget "gradientSlider Watch App" */;
+			buildPhases = (
+				51A62BB82987B91200E1E213 /* Sources */,
+				51A62BB92987B91200E1E213 /* Frameworks */,
+				51A62BBA2987B91200E1E213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gradientSlider Watch App";
+			productName = "gradientSlider Watch App";
+			productReference = 51A62BBC2987B91200E1E213 /* gradientSlider Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51A62BB02987B91200E1E213 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					51A62BB52987B91200E1E213 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					51A62BBB2987B91200E1E213 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 51A62BB32987B91200E1E213 /* Build configuration list for PBXProject "gradientSlider" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51A62BAF2987B91200E1E213;
+			productRefGroup = 51A62BB72987B91200E1E213 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51A62BB52987B91200E1E213 /* gradientSlider */,
+				51A62BBB2987B91200E1E213 /* gradientSlider Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51A62BB42987B91200E1E213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A62BBA2987B91200E1E213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A62BC92987B91400E1E213 /* Preview Assets.xcassets in Resources */,
+				51A62BC62987B91400E1E213 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51A62BB82987B91200E1E213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A62BC42987B91200E1E213 /* ContentView.swift in Sources */,
+				51A62BC22987B91200E1E213 /* gradientSliderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51A62BBF2987B91200E1E213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51A62BBB2987B91200E1E213 /* gradientSlider Watch App */;
+			targetProxy = 51A62BBE2987B91200E1E213 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		51A62BCA2987B91400E1E213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51A62BCB2987B91400E1E213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		51A62BCD2987B91400E1E213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gradientSlider Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = SVYSLR2KJN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = gradientSlider;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ainur.gradientSlider.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		51A62BCE2987B91400E1E213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gradientSlider Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = SVYSLR2KJN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = gradientSlider;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ainur.gradientSlider.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		51A62BD12987B91400E1E213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SVYSLR2KJN;
+				INFOPLIST_KEY_CFBundleDisplayName = gradientSlider;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ainur.gradientSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		51A62BD22987B91400E1E213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SVYSLR2KJN;
+				INFOPLIST_KEY_CFBundleDisplayName = gradientSlider;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ainur.gradientSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51A62BB32987B91200E1E213 /* Build configuration list for PBXProject "gradientSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51A62BCA2987B91400E1E213 /* Debug */,
+				51A62BCB2987B91400E1E213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51A62BCC2987B91400E1E213 /* Build configuration list for PBXNativeTarget "gradientSlider Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51A62BCD2987B91400E1E213 /* Debug */,
+				51A62BCE2987B91400E1E213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51A62BD02987B91400E1E213 /* Build configuration list for PBXNativeTarget "gradientSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51A62BD12987B91400E1E213 /* Debug */,
+				51A62BD22987B91400E1E213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51A62BB02987B91200E1E213 /* Project object */;
+}
